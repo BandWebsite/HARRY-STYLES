@@ -37,7 +37,7 @@
 <input type="password" name="Password" placeholder="Password" required><br>
 <p style="text-align:center;font-size:15px;color:red;font-family:'Garamond'">Existing User</p>
 <button class="btn btn-success mt-3" name="Login">Login</button>
-<p id="p">Don't have an account? <span><a href="Signup.html">Sign up
+<p id="p">Don't have an account? <span><a href="signup.html">Sign up
 </a></span></p>
 </form>
 </div>
