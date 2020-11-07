@@ -67,7 +67,7 @@ data-key="<?php echo $PublishableKey ?>"
 data-amount="50000"
 data-name="HARRY STYLES"
 data-description="MERCH STORE"
-data-image= "assets/stripe-image.jpg"
+data-image= "assets/easy.jpg"
 data-currency = "inr"
 
 

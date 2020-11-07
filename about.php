@@ -19,8 +19,8 @@
 		<nav class="nav main-nav">
 			<ul>
 				<li><a href="logout.php?logout">LOGOUT</a> </li>
-				<li><a href="wellcome.php">HOME</a></li>
-				<li><a href="Store.php">STORE</a></li>
+				<li><a href="Wellcome.php">HOME</a></li>
+				<li><a href="store.php">STORE</a></li>
 				<li><a href="about.php">ABOUT</a></li>
 				<li><a href="songs.php">SONGS</a></li>
 			</ul>

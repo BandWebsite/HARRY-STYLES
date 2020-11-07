@@ -20,8 +20,8 @@
         <nav class="main-nav nav">
             <ul>
                 <li><a href="logout.php?logout">LOGOUT</a> </li>
-				<li><a href="wellcome.php">HOME</a></li>
-				<li><a href="Store.php">STORE</a></li>
+				<li><a href="Wellcome.php">HOME</a></li>
+				<li><a href="store.php">STORE</a></li>
 				<li><a href="about.php">ABOUT</a></li>
 				<li><a href="songs.php">SONGS</a></li>
             </ul>
@@ -43,7 +43,7 @@
             </div>
 			 <div class="shop-item">
                 <span class="shop-item-title">Two Ghosts</span>
-                <img class="shop-item-image" src="assets/Two Ghost.jpg">
+                <img class="shop-item-image" src="assets/Two ghost.jpg">
                 <div class="shop-item-details">
                     <span class="shop-item-price">Rs 800</span>
                     <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
