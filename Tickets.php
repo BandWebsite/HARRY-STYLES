@@ -8,6 +8,13 @@
   <link rel="icon"
     href="https://nypost.com/wp-content/uploads/sites/2/2019/12/harry-styles-album-1.jpg?quality=80&strip=all&w=618&h=410&crop=1.jpg"
     type="image/x-icon">
+	<style>
+		.sbutton{
+			display: table;
+			margin: 0 auto;
+			padding-bottom:50px;
+		}
+	</style>
 </head>
 <body >
   <div id="wrap">
@@ -49,12 +56,12 @@
 	</table> 
 	</form>
 	</div>
-    <div style="padding-left:600px">
+  
 
     <?php 
 require("config.php");
 ?>
-<form action="submit.php" method="post">
+<form action="submit.php" method="post" class="sbutton">
 <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
 data-key="<?php echo $PublishableKey ?>"
 data-amount="50000"
@@ -67,6 +74,5 @@ data-currency = "inr"
 ></script>
 
 </form>
-</div>
   </body>
 </html>
