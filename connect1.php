@@ -5,7 +5,8 @@ $uname=$_POST['username'];
 $pass=$_POST['password'];
 $pass=base64_encode($pass);
 echo "$uname ";
-$conn = mysqli_connect("localhost","root", "", "demo");
+//$conn = mysqli_connect("localhost","root", "", "demo");
+$con=mysqli_connect('remotemysql.com','PpSuXQTkqM','nyaPj3LQlP','PpSuXQTkqM');
 if($conn){
 	echo "Connection Successful";
 	echo "<br>";
