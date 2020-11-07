@@ -20,7 +20,7 @@
                     <li><a href="Wellcome.php">HOME</a></li>
                 	<li><a href="store.php">STORE</a></li>
                 	<li><a href="about.php">ABOUT</a></li>
-                	<li><a href="Songs.php">SONGS</a></li>
+                	<li><a href="songs.php">SONGS</a></li>
                 </ul>
             </nav>
             <h1 class="band-name band-name-large">HARRY STYLES</h1>
