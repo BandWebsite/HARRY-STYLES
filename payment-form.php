@@ -15,6 +15,11 @@
 			padding-bottom:50px;
 		}
 	</style>
+	<script>
+		function val(){
+			alert("ok");
+		}
+	</script>
 </head>
 <body >
   <div id="wrap">
@@ -84,7 +89,7 @@
     <?php 
 require("config.php");
 ?>
-<form action="submit.php" method="post" class="sbutton">
+<form action="submit.php" method="post" class="sbutton" onclick="val()">
 <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
 data-key="<?php echo $PublishableKey ?>"
 data-amount="50000"
