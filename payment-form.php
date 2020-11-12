@@ -92,7 +92,7 @@ require("config.php");
 <form action="submit.php" method="post" class="sbutton" onclick="val()">
 <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
 data-key="<?php echo $PublishableKey ?>"
-data-amount="50000"
+data-amount="280000"
 data-name="HARRY STYLES"
 data-description="MERCH STORE"
 data-image= "assets/easy.jpg"
