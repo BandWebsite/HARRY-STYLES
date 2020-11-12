@@ -1,2 +1,1 @@
-# website
-my first website, a website for a celebrity.
+A website for the musician Harry Styles, it has features to book tickets for concerts, merchandize store and hosts few songs as well. The user is expercted to login and their credentials are stored in remotemysql and the password is encrypted. The stripe payment gateway is used. 
