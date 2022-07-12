@@ -4,7 +4,8 @@
 	//remote connection
 	//$con=mysqli_connect('remotemysql.com','PpSuXQTkqM','nyaPj3LQlP','PpSuXQTkqM');
 	//remote connection 2
-	$con = mysqli_connect('sql6.freesqldatabase.com', 'sql6504121', 'vAUQ4ICbZm', 'sql6504121')
+	$db_port        = '3306';
+	$con = mysqli_connect('sql6.freesqldatabase.com', 'sql6504121', 'vAUQ4ICbZm', 'sql6504121', $db_port)
 
     if(!$con)
     {
