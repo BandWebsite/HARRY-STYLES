@@ -6,7 +6,8 @@ $pass=$_POST['password'];
 $pass=base64_encode($pass);
 echo "$uname ";
 //$conn = mysqli_connect("localhost","root", "", "demo");
-$conn=mysqli_connect('remotemysql.com','PpSuXQTkqM','nyaPj3LQlP','PpSuXQTkqM');
+//$conn=mysqli_connect('remotemysql.com','PpSuXQTkqM','nyaPj3LQlP','PpSuXQTkqM');
+$conn = mysqli_connect('sql6.freesqldatabase.com', 'sql6504121', 'vAUQ4ICbZm', 'sql6504121')
 if($conn){
 	echo "Connection Successful";
 	echo "<br>";
